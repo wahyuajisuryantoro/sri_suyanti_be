@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Build output
+/public/build
+/public/hot
+/public/storage
+/bootstrap/ssr
+/build
+
+# Environment & secrets
+.env
+.env.backup
+.env.production
+auth.json
+
+# Storage keys / runtime
+/storage/*.key
+/storage/pail
+
+# Caches & logs
+/.phpunit.cache
+.phpunit.result.cache
+.phpactor.json
+npm-debug.log
+yarn-error.log
+
+# Local dev tooling
+Homestead.json
+Homestead.yaml
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# OS
+.DS_Store
